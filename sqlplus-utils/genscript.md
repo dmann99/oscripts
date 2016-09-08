@@ -8,17 +8,16 @@ Common uses for this are to write SQL statements that can work from a list of ob
 * USER_OBJECTS with an appropriate filter on OBJECT_TYPE (TABLE, PACKAGE, SEQUENCE, etc…)
 # Usage
 
-* Update genscript.sql to include SQL statement you want to generate (see last line)
-* Run the script:
-~~~
+1. Update genscript.sql to include SQL statement you want to generate (see last line)
+2. Run the script:
+```
 SQLPLUS user/password@instance @genscript.sql
-~~~
-* View your results:
-~~~
+```
+3. View your results:
+```
 EDIT c:\spool.sql
-~~~
-4) Run it!
-
-?
-1
+```
+4. Run it!
+```
 SQL> @spool.sql
+```
