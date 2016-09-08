@@ -9,11 +9,11 @@ Shell environment set for ASM Oracle Home and asmcmd command available. This scr
 ```
 script.py
 ```
-* List all files in +DATAC1 directory and below
+* List all files in +DATAC1/MYDB directory and below
 ```
-script.py +DATAC1
+script.py +DATAC1/MYDB
 ```
 * Create commands to make regular filesystem directories and generate asmcmd cp commands to copy files to regular filesystem
 ```
-script.py #DATAC1/MYDB /u01/oradata
+script.py +DATAC1/MYDB /u01/oradata
 ```
