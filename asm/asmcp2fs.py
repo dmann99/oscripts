@@ -3,7 +3,7 @@
 # 07-AUG-2016
 
 # Purpose:
-# asmcmd helper for
+# asmcmd helper for recursively listing files and copying files from ASM to a file system
 
 # Prereq:
 # Shell environment set for ASM Oracle Home and asmcmd command available.
